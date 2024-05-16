@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "next build",
+        "dev": "nodemon --exec next dev --hostname 0.0.0.0 --port 3000",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@mui/icons-material": "^5.15.16",
+        "@mui/material": "^5.15.16",
+        "@mui/x-date-pickers-pro": "^7.3.2",
+        "@prisma/client": "^5.13.0",
+        "dayjs": "^1.11.11",
+        "firebase": "^10.11.1",
+        "firebase-admin": "^12.1.0",
+        "html-react-parser": "^5.1.10",
+        "next": "14.0.4",
+        "prisma": "^5.13.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
