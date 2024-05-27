@@ -8,7 +8,7 @@ WORKDIR /build
 COPY . .
 RUN npm ci
 RUN npm run build
-RUN touch .env
+# RUN touch .env
 
 # Production image
 FROM base AS runner
